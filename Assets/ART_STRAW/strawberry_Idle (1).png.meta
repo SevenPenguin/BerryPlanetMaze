@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 095983122f5d0534a981da8ae6d245ec
+guid: 558ab628fc462d94d9b45972d3f66eae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Strawberry_back side_0
+      name: strawberry_Idle (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6231382115d2239488d89aa0f5648455
-      internalID: -1423040352
+      spriteID: 498f3a6cf44060143abbb1e768d38d1c
+      internalID: 862488314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Strawberry_back side_1
+      name: strawberry_Idle (1)_1
       rect:
         serializedVersion: 2
         x: 50
@@ -152,29 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0013f1d20b2b0d94882084755e916d0b
-      internalID: 1389399805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Strawberry_back side_2
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b419f296a08c6e34884aacd69db720ea
-      internalID: -30760020
+      spriteID: cfe6b45f8ead5fc4299491dfc5bac25a
+      internalID: 2003805138
       vertices: []
       indices: 
       edges: []
@@ -190,9 +169,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Strawberry_back side_2: -30760020
-      Strawberry_back side_0: -1423040352
-      Strawberry_back side_1: 1389399805
+      strawberry_Idle (1)_1: 2003805138
+      strawberry_Idle (1)_0: 862488314
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

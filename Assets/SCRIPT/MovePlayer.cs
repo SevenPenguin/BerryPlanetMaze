@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
+    public Rigidbody2D rb;
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,18 @@ public class MovePlayer : MonoBehaviour
 
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
+
+        bool playerFront = (vertical < 0 && horizontal == 0);
+        anim.SetBool("playerFront", playerFront);
+
+        bool playerBack = (vertical > 0 && horizontal == 0);
+        anim.SetBool("playerBack", playerBack);
+
+        bool playerLeft = (horizontal < 0 && vertical == 0);
+        anim.SetBool("playerLeft", playerLeft);
+
+        bool playerRight = (horizontal > 0 && vertical == 0);
+        anim.SetBool("playerRight", playerRight);
 
         //Debug.Log(direction);
 
