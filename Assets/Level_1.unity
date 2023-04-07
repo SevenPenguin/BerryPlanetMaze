@@ -5782,7 +5782,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1370675124}
   anim: {fileID: 1370675125}
-  walkSoundEffect: {fileID: 1370675126}
 --- !u!212 &1370675122
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5905,8 +5904,8 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: e830ec4bf70d44ae1ab72b63c73aedf5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
+  m_Pitch: 0.5
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

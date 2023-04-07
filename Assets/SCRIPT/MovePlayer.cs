@@ -7,18 +7,14 @@ public class MovePlayer : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
 
-    private AudioSource walkSound;
-
-
     // AudioMovement SFX
-    [SerializeField] private AudioSource walkSoundEffect;
+    private AudioSource walkSound;
 
 
     // Start is called before the first frame update
     void Start()
     {
         walkSound = GetComponent<AudioSource>();
-        walkSoundEffect = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,13 +26,9 @@ public class MovePlayer : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
-        if (horizontal != 0 || vertical != 0)
+        if ((Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical")) && !walkSound.isPlaying)
         {
-            if (!walkSound.isPlaying)
-            {
-                walkSound.Play();
-            }
-            
+           walkSound.Play();
         }
 
         bool playerFront = (vertical < 0 && horizontal == 0);
@@ -61,7 +53,7 @@ public class MovePlayer : MonoBehaviour
         position.x = position.x + (5f * Time.deltaTime * horizontal);
         position.y = position.y + (5f * Time.deltaTime * vertical);
 
-        walkSoundEffect.Play();
+        //walkSoundEffect.Play();
 
         //if (position.x < 10) stay in the camera {}
 
