@@ -18,6 +18,7 @@ public class MovePlayer : MonoBehaviour
     void Start()
     {
         walkSound = GetComponent<AudioSource>();
+        walkSoundEffect = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
