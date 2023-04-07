@@ -44,14 +44,17 @@ public class MovePlayer : MonoBehaviour
         //store positionn of ryan in a variable
         Vector2 position = transform.position;
 
+
         //update the x position of the variable
         position.x = position.x + (0.05f * horizontal);
         position.y = position.y + (0.05f * vertical);
 
+        walkSoundEffect.Play();
+
         //if (position.x < 10) stay in the camera {}
 
         //update the gameObject position
-        
+
         transform.position = position;
         
     }
