@@ -65388,7 +65388,7 @@ GameObject:
   - component: {fileID: 1978865265}
   - component: {fileID: 1978865269}
   m_Layer: 0
-  m_Name: InGameSettingsMenu
+  m_Name: InGamePauseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
