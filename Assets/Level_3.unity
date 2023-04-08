@@ -1491,7 +1491,7 @@ GameObject:
   - component: {fileID: 163955068}
   - component: {fileID: 163955067}
   - component: {fileID: 163955066}
-  - component: {fileID: 163955065}
+  - component: {fileID: 163955070}
   m_Layer: 0
   m_Name: GoToNextLevelMenu
   m_TagString: Untagged
@@ -1499,19 +1499,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &163955065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163955064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cabf7693b5f564648a061faf1ec2d57b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextlevelMenuUI: {fileID: 163955064}
 --- !u!114 &163955066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1598,6 +1585,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &163955070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163955064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cdbf8e016c7c41f9b37efa4b91ce07a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextlevelMenuUI: {fileID: 163955064}
 --- !u!1 &171941106
 GameObject:
   m_ObjectHideFlags: 0
@@ -3539,7 +3539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 306, y: 174}
+  m_AnchoredPosition: {x: 317, y: 178}
   m_SizeDelta: {x: 115.3715, y: 109.4933}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324505772
@@ -6687,7 +6687,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -252, y: 158}
+  m_AnchoredPosition: {x: -252, y: 166}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &616175184
@@ -6710,7 +6710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LEVEL 1
+  m_text: LEVEL 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 48162a2144b89427fadf47d074940c56, type: 2}
   m_sharedMaterial: {fileID: -9213061845192402266, guid: 48162a2144b89427fadf47d074940c56, type: 2}
@@ -7129,8 +7129,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 163955065}
-        m_TargetAssemblyTypeName: NextLevelMenu, Assembly-CSharp
+      - m_Target: {fileID: 163955070}
+        m_TargetAssemblyTypeName: NextLevel3Menu, Assembly-CSharp
         m_MethodName: StartNextLevel
         m_Mode: 1
         m_Arguments:
@@ -11134,7 +11134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 994401996}
   - component: {fileID: 994401995}
-  - component: {fileID: 994401994}
+  - component: {fileID: 994401997}
   m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
@@ -11142,19 +11142,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &994401994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994401993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cabf7693b5f564648a061faf1ec2d57b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextlevelMenuUI: {fileID: 163955064}
 --- !u!114 &994401995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11188,6 +11175,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &994401997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994401993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cdbf8e016c7c41f9b37efa4b91ce07a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextlevelMenuUI: {fileID: 163955064}
 --- !u!1 &994770832
 GameObject:
   m_ObjectHideFlags: 0
@@ -22342,8 +22342,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 163955065}
-        m_TargetAssemblyTypeName: NextLevelMenu, Assembly-CSharp
+      - m_Target: {fileID: 163955070}
+        m_TargetAssemblyTypeName: NextLevel3Menu, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -24938,8 +24938,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 163955065}
-        m_TargetAssemblyTypeName: NextLevelMenu, Assembly-CSharp
+      - m_Target: {fileID: 163955070}
+        m_TargetAssemblyTypeName: NextLevel3Menu, Assembly-CSharp
         m_MethodName: ResetScene
         m_Mode: 1
         m_Arguments:
