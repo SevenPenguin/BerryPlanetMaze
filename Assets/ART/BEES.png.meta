@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0120eab6eaa98bc4293d243535b1fad1
+guid: 3be841802e5a77f4da17ac69a910f7c2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime_Back attacking_0
+      name: BEES_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36e053cae168f4a43ab62ca1609e73d2
-      internalID: -721096536
+      spriteID: 7c3a0f28d52effc4999a97f09d467e2f
+      internalID: -1092492302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Back attacking_1
+      name: BEES_1
       rect:
         serializedVersion: 2
         x: 50
@@ -152,8 +152,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16123e16bdd25e543b90d829976f2300
-      internalID: 1404291536
+      spriteID: 7c738d9c44adc724a9e4177636cd773b
+      internalID: 806455638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BEES_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250160e55ab9344468bc304fc2978341
+      internalID: 789754925
       vertices: []
       indices: 
       edges: []
@@ -169,8 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slime_Back attacking_1: 1404291536
-      Slime_Back attacking_0: -721096536
+      BEES_2: 789754925
+      BEES_1: 806455638
+      BEES_0: -1092492302
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
